@@ -49,6 +49,9 @@ if ip != currentip:
     iplog= open("/var/tmp/external_ip.log", 'w')
     iplog.write(ip)
     iplog.close()
+    if sending_email == '':
+        print('My public IP address is: {}'.format(ip))
+        print('Please review README')
     mail = smtplib.SMTP(mail_server, mail_server_port)
     mail.ehlo()
     mail.starttls()
