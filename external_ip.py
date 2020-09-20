@@ -15,8 +15,8 @@ script to your scheduled events and you won't
 need to buy a static ip.
 For help setting up email refer to:
 https://automatetheboringstuff.com/chapter16/
-Written by NunchuckFusion
-Email: NunchuckFusion@gmail.com
+Written by Daniel A
+Email: Cajun.Rubber.Duck@gmail.com
 example:
 sending_email='badgerlover18@gmail.com'
 password='supersecretwords'
